@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortner</title>
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/common.css">
+  <script src="js/base62.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <div class="title-container">
+      <p class="title-text">URL 단축기</p>
+      <p class="subtitle-text">URL 단축기를 사용하여 긴 URL을 줄여보세요!</p>
+    </div>
+    <div id="shortner-input-container" class="shortner-container">
+      <input type="text" id="shortner-input" class="shortner-text-field"/>
+      <div id="shortner-submit-button" class="shortner-button">
+        <p>제출</p>
+      </div>
+    </div>
+    <div id="shortner-result-container" class="shortner-container">
+      <input type="text" id="shortner-result" class="shortner-text-field" disabled />
+      <div id="shortner-copy-button" class="shortner-button">
+        <p>복사</p>
+      </div>
+    </div>
+  </div>
+  <script src="js/elements.js"></script>
+  <script src="js/focus.js"></script>
+  <script src="js/common.js"></script>
+</body>
+</html>
